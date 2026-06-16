@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RideDay - Car Booking</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+body { background: #111827; color: #F9FAFB; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+.container { text-align: center; padding: 40px 20px; }
+.logo { font-size: 60px; margin-bottom: 20px; }
+h1 { font-size: 36px; font-weight: 800; color: #3B82F6; margin-bottom: 10px; }
+p { color: #6B7280; font-size: 16px; margin-bottom: 30px; }
+.badge { background: #1F2937; border: 1px solid #374151; border-radius: 20px; padding: 10px 24px; display: inline-block; color: #4ADE80; font-weight: 600; font-size: 14px; margin-bottom: 30px; }
+.cards { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+.card { background: #1F2937; border: 1px solid #374151; border-radius: 16px; padding: 20px; width: 160px; }
+.card-icon { font-size: 32px; margin-bottom: 10px; }
+.card-title { font-size: 14px; font-weight: 600; color: #F9FAFB; margin-bottom: 4px; }
+.card-sub { font-size: 12px; color: #6B7280; }
+.btn { background: linear-gradient(135deg, #3B82F6, #2563EB); color: white; border: none; border-radius: 14px; padding: 14px 32px; font-size: 16px; font-weight: 700; cursor: pointer; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="logo">🚗</div>
+  <h1>RideDay</h1>
+  <p>1-Day Car Rental Booking Platform</p>
+  <div class="badge">✅ Now Live!</div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon">👤</div>
+      <div class="card-title">Customer</div>
+      <div class="card-sub">Book a car for 1 day</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">🚘</div>
+      <div class="card-title">Driver</div>
+      <div class="card-sub">Register & earn money</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">📍</div>
+      <div class="card-title">8 Cities</div>
+      <div class="card-sub">Mumbai, Delhi & more</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">💳</div>
+      <div class="card-title">Easy Pay</div>
+      <div class="card-sub">UPI, Card, Net Banking</div>
+    </div>
+  </div>
+  <button class="btn">Coming Soon 🚀</button>
+</div>
+</body>
+</html>
